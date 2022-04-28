@@ -1,7 +1,6 @@
 function triangleArea(length1,length2,length3) {
-    // length2 is a breath and length3 is the height
-    let bh = length2 * length3;
-    let area = bh / 2;
-    console.log(area +" is the area of the triangle");
+    let triangleArea = 1/2 * length2 * length3;
+
+    console.log(triangleArea);
 }
 triangleArea(2,4,5);
