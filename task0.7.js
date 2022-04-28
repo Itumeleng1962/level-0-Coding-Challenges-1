@@ -5,6 +5,7 @@ function celsiusToFahrenheit(celsius)
   let message = celsiusTemperature+'\xB0C is ' + celsiusToFahrenheit + ' \xB0F.';
     console.log(message);
 }
+celsiusToFahrenheit(60);
 
 function fahrenheitToCelsius(fahrenheit) 
 {
@@ -13,5 +14,4 @@ function fahrenheitToCelsius(fahrenheit)
   let message = fahrenheitTemperature+'\xB0F is ' + fahrenheitToCelsius + '\xB0C.';
     console.log(message);
 } 
-celsiusToFahrenheit(60);
 fahrenheitToCelsius(45);
